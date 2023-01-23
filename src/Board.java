@@ -9,13 +9,12 @@ public class Board
 	}
 	
 	
-	private void fen_to_board(String fen)
-	{
+	private void fen_to_board(String fen) {
 		
 	}
 	
 	public void initializeBoard() {
-		board[0] = ['r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'];
+		fen_to_board("");
 	}
 	
 	public char[][] getBoard() {
